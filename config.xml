@@ -2,15 +2,14 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     xmlns:android = "http://schemas.android.com/apk/res/android"
-    id        = "kmrs.mobile.app"
+    id        = "kdb.mobile.app"
     versionCode = "25"
     version   = "2.5">
-    <name>Karenderia Mobile App</name>
+    <name>Kdb Mobile App</name>
     <description>
-        Karenderia mobile app version
+        Kdb mobile app version
     </description>
-    <author email="bastikikang@gmail.com" href="http://cordova.io">
-        bastisapp.com
+    <author email="remijeoua@gmail.com" href="http://cordova.io">
     </author>
             
     <content src="index.html" />
@@ -37,7 +36,7 @@
 	<gap:plugin name="cordova.plugins.diagnostic" source="npm" spec="3.7.1" />	
 		
 	<gap:plugin name="cordova-plugin-googlemaps-plus" source="npm" spec="1.4.0" >
-       <param name="API_KEY_FOR_ANDROID" value="" />
+       <param name="API_KEY_FOR_ANDROID" value="AIzaSyAzX493SeYuZULFfY02vxi4Vx3TJbtL2oI" />
        <param name="API_KEY_FOR_IOS" value="" />
        <param name="LOCATION_WHEN_IN_USE_DESCRIPTION" value="Karenderia wants to use your location" />
        <param name="LOCATION_ALWAYS_USAGE_DESCRIPTION" value="Karenderia want to always use your location" />
@@ -56,7 +55,7 @@
     <preference name="fullscreen" value="false" />        
     <preference name="ShowSplashScreenSpinner" value="false" />	   
         
-    <preference name="android-minSdkVersion" value="17" />
+    <preference name="android-minSdkVersion" value="19" />
     <preference name="android-targetSdkVersion" value="26" />
     
     <access origin="*" />
@@ -68,7 +67,7 @@
         </application>        
     </gap:config-file> 
 	            
-    <preference name="phonegap-version" value="cli-7.0.1" />     
+    <preference name="phonegap-version" value="cli-7.1.0" />     
     <gap:plugin name="cordova-plugin-camera" source="npm" spec="2.4.1" />
     <gap:plugin name="cordova-plugin-file-transfer" source="npm" spec="1.6.2" /> 
     <gap:plugin spec="https://github.com/danwilson/google-analytics-plugin.git" source="git" />     

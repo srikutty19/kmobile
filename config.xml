@@ -67,8 +67,8 @@
         </application>        
     </gap:config-file> 
 	            
-    <preference name="phonegap-version" value="cli-7.0.1" />     
-    <preference name='pgb-builder-version' value='1' />
+    <preference name="phonegap-version" value="cli-8.0.0" />     
+  
     <gap:plugin name="cordova-plugin-camera" source="npm" />
     <gap:plugin name="cordova-plugin-file-transfer" source="npm" /> 
     <gap:plugin spec="https://github.com/danwilson/google-analytics-plugin.git" source="git" />     
